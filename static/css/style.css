@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nanum+Myeongjo:wght@700&display=swap');
+body{
+    width: 100vw;
+    height:100vh;
+
+}
+.mainContent{
+    width: 100vw;
+    height:100vh;
+}
+
+.mainImage{
+    width: 100vw;
+    height:100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+.mainTitle{
+    font-family: 'Lobster', cursive;
+    color: #f2f7f2;
+    margin-left: 20px
+}
+.darker{
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0,.65)
+}
+.mainContentBody{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    color: #f2f7f2;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    z-index: 100;
+    flex-direction: row;
+}
+.mainContentBodyLeft{
+    width: 50%;
+    background-color: none;
+    padding-left: 20%
+}
+.mainContentBodyRight{
+    text-align: start;
+    background-color: none;
+}
+.welcome{
+    font-size: 8vh;
+    font-family: 'Acme', sans-serif;
+}
+.mainDescribe{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vh;
+}
+.imgMano{
+    width: 35vw;
+    display: block;
+}
+.sideOPT{
+    color: white;
+}
+.conmt{
+    margin-left: 15px;
+    transition: .2s ease-in-out;
+}
+
+.conmt:hover{
+    transform: scale(1.2)
+}
+.buyBtn{
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px
+}
+@media screen and (max-width: 1200px) {
+    .imgMano{
+        display:none;
+    }
+    .mainContentBodyLeft{
+        width: 80%;
+        padding-left: 30%
+    }
+
+    .welcome{
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .mainContentBody{
+        padding: 20px
+    }
+}
+@media screen and (max-width: 620px) {
+    .mainContentBodyLeft{
+        width: 100%;
+        padding-left: 10px
+    }
+}
