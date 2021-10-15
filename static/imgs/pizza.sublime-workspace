@@ -1,0 +1,281 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"htm",
+				"html5"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"html",
+				"html"
+			],
+			[
+				"seria",
+				"serializers"
+			],
+			[
+				"C",
+				"CursoSerializers"
+			],
+			[
+				"AP",
+				"APIView"
+			],
+			[
+				"CU",
+				"Curso"
+			],
+			[
+				"Mode",
+				"modelserializer"
+			],
+			[
+				"sel",
+				"serializers"
+			],
+			[
+				"no",
+				"notas"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"icons",
+				"Snippet: SVG Icon Stack Overflow"
+			],
+			[
+				"cmd",
+				"Cmd Caller: Default Action"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/home/templates/home/index.html",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/pizzaria/urls.py",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/static/css/style.css",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/templates/base.html",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/home/views.py",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/home/urls.py",
+		"/C/Users/Instrutor/PycharmProjects/pizzaria/cardapio/views.py",
+		"/E/API-DJANGO/13.10.2021/manage.py",
+		"/E/API-DJANGO/13.10.2021/cursos/views.py",
+		"/E/API-DJANGO/13.10.2021/cursos/urls.py",
+		"/E/API-DJANGO/13.10.2021/escola/urls.py",
+		"/E/API-DJANGO/13.10.2021/cursos/models.py",
+		"/E/API-DJANGO/13.10.2021/cursos/templates/cursos/index.html",
+		"/E/API-DJANGO/13.10.2021/cursos/templates/curso/index.html",
+		"/E/API-DJANGO/13.10.2021/escola/settings.py",
+		"/E/API-DJANGO/13.10.2021/cursos/serializers.py",
+		"/E/API-DJANGO/13.10.2021/cursos/admin.py",
+		"/E/API-DJANGO/13.10.2021/cursos/migrations/a.js",
+		"/Z/TAI/ex_listas.py",
+		"/C/Users/Instrutor/Desktop/Pizza/firebase.py",
+		"/C/Users/Instrutor/Desktop/Pizza - Copy/home/views.py",
+		"/C/Users/Instrutor/Desktop/Pizza - Copy/firebase.py",
+		"/C/Users/Instrutor/Desktop/Pizza - Copy/manage.py"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pizza.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
