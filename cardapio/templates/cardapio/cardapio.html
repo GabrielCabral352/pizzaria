@@ -4,69 +4,37 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/cardapio.css' %}">  
 {% endblock %}
 
+
+
 {% block body %}
-<div class="allBodyContent">
-    <div>
-        <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
 
-
-
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
-    <div class="cardPizza">
-        <div class="cardPizzaImg">
-            <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
-        </div>
-        <div class="cardPizzaText">
-            
-        </div>
-    </div>
+<div id="popupBg" class="popupBg">
+    <div class="popup">
+        <p id="closeBTN" class="btnClosePop">❌</p>
     </div>
 </div>
+<div class="mainBg">
+</div>
+<div class="allBodyContent">
+    
+        {% for i in dados %}
+        <div class="cardPizza" onclick="popup(this)">
+            <div class="cardPizzaImg">
+                <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
+            </div>
+            <div class="cardPizzaText">
+                <p class="pizzaNameText">Sabor Pizza  </p>
+                <p class="pizzaPriceText">R$ {{i}}</p>
+            </div>
+        </div>
+        {% endfor %}
 
+        
+
+   
+</div>
+
+{% endblock %}
+{% block script %}
+<script src="{% static 'js/cardapio.js' %}" ></script>
 {% endblock %}
