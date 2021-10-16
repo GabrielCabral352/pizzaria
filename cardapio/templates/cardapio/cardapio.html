@@ -22,10 +22,32 @@
             <div class="cardPizzaImg">
                 <img class="cardImg" src="{% static 'imgs/pizzatemp.png' %}">
             </div>
+            <div class="data">
+                <p class="dataHeader">Ingredientes:</p>
+                <div class="dataInfo">
+                    <ul class="listIngredients">
+                        <li><span>Ingrediente 1</span></li>
+                        <li><span>Ingrediente 2</span></li>
+                        <li><span>Ingrediente 3</span></li>
+                        <li><span>Ingrediente 4</span></li>
+                        <li><span>Ingrediente 5</span></li>
+                        <li><span>Ingrediente 6</span></li>
+                        <li><span>Ingrediente 7</span></li>
+                        <li><span>Ingrediente 8</span></li>
+                        <li><span>Ingrediente 9</span></li>
+                        <li><span>Ingrediente 10</span></li>
+                        <li><span>Ingrediente 11</span></li>
+                        <li><span>Ingrediente 12</span></li>
+                        <li><span>Ingrediente 13</span></li>
+                        <li><span>Ingrediente 14</span></li>
+                      </ul>
+                </div>
+            </div>
             <div class="cardPizzaText">
-                <p class="pizzaNameText">Sabor Pizza  </p>
+                <p class="pizzaNameText">Sabor Pizza</p>
                 <p class="pizzaPriceText">R$ {{i}}</p>
             </div>
+            <input type="submit" class="addCartBtn" value="Adicionar ao carrinho" />
         </div>
         {% endfor %}
 
