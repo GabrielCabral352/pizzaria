@@ -3,9 +3,11 @@ from django.db import models
 from django.db import models
 
 
+
 class Cardapio(models.Model):
     descricao = models.CharField(max_length=50)
     valor = models.DecimalField(max_digits=8)
+
 
 
 class Cliente(models.Model):
